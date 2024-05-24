@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Love Calculator</title>
+</head>
+<body>
+    <main>
+    <div class="box" id="inputbox">
+        <h2><b>Enter Your Name</b></h2>
+        <div class="inpu1">
+            <input type="text" id="text" placeholder="check how much saravana loves you">
+            <form>
+                <label for="male">
+                    <input type="radio" name="gender" value="male" id="gen">
+                    Male
+                </label><br>
+        
+                <label for="female">
+                    <input type="radio" name="gender" value="female" id="gen">
+                    Female
+                </label><br>
+        
+                <label for="notMention">
+                    <input type="radio" name="gender" value="Not to mention" id="gen">
+                    Not to mention
+                </label>
+            </form>
+           
+            <input type="number" id="num" placeholder="Enter your age">
+        </div>
+        <div>
+            <button type="submit"><b>Calculate love</b></button>
+        </div>
+        <div id="result"></div>
+        <div id="imageContainer">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
